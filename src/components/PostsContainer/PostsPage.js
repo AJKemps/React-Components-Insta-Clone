@@ -7,9 +7,9 @@ import "./Posts.css";
 
 import dummyData from '../../dummy-data'
 
-const PostsPage = () => {
+const PostsPage = (props) => {
   // set up state for your data
-
+  const { setSearchText } = props
   const posts = dummyData
 
   return (
