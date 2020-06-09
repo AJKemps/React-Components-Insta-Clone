@@ -18,7 +18,7 @@ const PostsPage = () => {
       posts.map(postsObject => {
         return (
           <Post
-            key={dummyData.username }
+            key={postsObject }
             postData={postsObject}
             />
         )
